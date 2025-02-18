@@ -1,0 +1,28 @@
+-- Found ament_cmake: 1.3.9 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/radu/rapop/ament_playground/ws1/build/ament_env_hooks
+-- Install configuration: ""
+-- Installing: /home/radu/test/ament_playground_ws/share/ament_env_hooks/cmake
+-- Installing: /home/radu/test/ament_playground_ws/share/ament_env_hooks/cmake/env_hooks.cmake
+-- Installing: /home/radu/test/ament_playground_ws/share/ament_env_hooks/env_hooks
+-- Installing: /home/radu/test/ament_playground_ws/share/ament_env_hooks/env_hooks/hello_world_path.sh.in
+-- Installing: /home/radu/test/ament_playground_ws/share/ament_index/resource_index/env_hooks/ament_env_hooks
+-- Installing: /home/radu/test/ament_playground_ws/share/ament_index/resource_index/package_run_dependencies/ament_env_hooks
+-- Installing: /home/radu/test/ament_playground_ws/share/ament_index/resource_index/parent_prefix_path/ament_env_hooks
+-- Installing: /home/radu/test/ament_playground_ws/share/ament_env_hooks/environment/ament_prefix_path.sh
+-- Installing: /home/radu/test/ament_playground_ws/share/ament_env_hooks/environment/ament_prefix_path.dsv
+-- Installing: /home/radu/test/ament_playground_ws/share/ament_env_hooks/environment/path.sh
+-- Installing: /home/radu/test/ament_playground_ws/share/ament_env_hooks/environment/path.dsv
+-- Installing: /home/radu/test/ament_playground_ws/share/ament_env_hooks/local_setup.bash
+-- Installing: /home/radu/test/ament_playground_ws/share/ament_env_hooks/local_setup.sh
+-- Installing: /home/radu/test/ament_playground_ws/share/ament_env_hooks/local_setup.zsh
+-- Installing: /home/radu/test/ament_playground_ws/share/ament_env_hooks/local_setup.dsv
+-- Installing: /home/radu/test/ament_playground_ws/share/ament_env_hooks/package.dsv
+-- Installing: /home/radu/test/ament_playground_ws/share/ament_index/resource_index/packages/ament_env_hooks
+-- Up-to-date: /home/radu/test/ament_playground_ws/share/ament_env_hooks/cmake/env_hooks.cmake
+-- Installing: /home/radu/test/ament_playground_ws/share/ament_env_hooks/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Installing: /home/radu/test/ament_playground_ws/share/ament_env_hooks/cmake/ament_env_hooksConfig.cmake
+-- Installing: /home/radu/test/ament_playground_ws/share/ament_env_hooks/cmake/ament_env_hooksConfig-version.cmake
+-- Installing: /home/radu/test/ament_playground_ws/share/ament_env_hooks/package.xml

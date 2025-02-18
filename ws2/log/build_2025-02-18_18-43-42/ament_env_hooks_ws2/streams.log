@@ -1,0 +1,21 @@
+[0.031s] Invoking command in '/home/radu/rapop/ament_playground/ws2/build/ament_env_hooks_ws2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/radu/rapop/ament_playground/ws2/build/ament_env_hooks_ws2 -- -j8 -l8
+[0.099s] Invoked command in '/home/radu/rapop/ament_playground/ws2/build/ament_env_hooks_ws2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/radu/rapop/ament_playground/ws2/build/ament_env_hooks_ws2 -- -j8 -l8
+[0.179s] Invoking command in '/home/radu/rapop/ament_playground/ws2/build/ament_env_hooks_ws2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/radu/rapop/ament_playground/ws2/build/ament_env_hooks_ws2
+[0.227s] -- Install configuration: ""
+[0.227s] -- Up-to-date: /home/radu/test/ament_playground_ws2/share/ament_env_hooks_ws2/environment/hello_world_path.sh
+[0.231s] -- Up-to-date: /home/radu/test/ament_playground_ws2/share/ament_index/resource_index/package_run_dependencies/ament_env_hooks_ws2
+[0.231s] -- Up-to-date: /home/radu/test/ament_playground_ws2/share/ament_index/resource_index/parent_prefix_path/ament_env_hooks_ws2
+[0.231s] -- Up-to-date: /home/radu/test/ament_playground_ws2/share/ament_env_hooks_ws2/environment/ament_prefix_path.sh
+[0.232s] -- Up-to-date: /home/radu/test/ament_playground_ws2/share/ament_env_hooks_ws2/environment/ament_prefix_path.dsv
+[0.232s] -- Up-to-date: /home/radu/test/ament_playground_ws2/share/ament_env_hooks_ws2/environment/path.sh
+[0.232s] -- Up-to-date: /home/radu/test/ament_playground_ws2/share/ament_env_hooks_ws2/environment/path.dsv
+[0.232s] -- Up-to-date: /home/radu/test/ament_playground_ws2/share/ament_env_hooks_ws2/local_setup.bash
+[0.232s] -- Up-to-date: /home/radu/test/ament_playground_ws2/share/ament_env_hooks_ws2/local_setup.sh
+[0.232s] -- Up-to-date: /home/radu/test/ament_playground_ws2/share/ament_env_hooks_ws2/local_setup.zsh
+[0.233s] -- Up-to-date: /home/radu/test/ament_playground_ws2/share/ament_env_hooks_ws2/local_setup.dsv
+[0.240s] -- Up-to-date: /home/radu/test/ament_playground_ws2/share/ament_env_hooks_ws2/package.dsv
+[0.241s] -- Up-to-date: /home/radu/test/ament_playground_ws2/share/ament_index/resource_index/packages/ament_env_hooks_ws2
+[0.241s] -- Up-to-date: /home/radu/test/ament_playground_ws2/share/ament_env_hooks_ws2/cmake/ament_env_hooks_ws2Config.cmake
+[0.241s] -- Up-to-date: /home/radu/test/ament_playground_ws2/share/ament_env_hooks_ws2/cmake/ament_env_hooks_ws2Config-version.cmake
+[0.241s] -- Up-to-date: /home/radu/test/ament_playground_ws2/share/ament_env_hooks_ws2/package.xml
+[0.242s] Invoked command in '/home/radu/rapop/ament_playground/ws2/build/ament_env_hooks_ws2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/radu/rapop/ament_playground/ws2/build/ament_env_hooks_ws2

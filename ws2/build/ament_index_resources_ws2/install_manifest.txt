@@ -1,0 +1,16 @@
+/home/radu/test/ament_playground_ws2/scripts/ament_index_resources_ws2/script.sh
+/home/radu/test/ament_playground_ws2/share/ament_index/resource_index/package_run_dependencies/ament_index_resources_ws2
+/home/radu/test/ament_playground_ws2/share/ament_index/resource_index/parent_prefix_path/ament_index_resources_ws2
+/home/radu/test/ament_playground_ws2/share/ament_index_resources_ws2/environment/ament_prefix_path.sh
+/home/radu/test/ament_playground_ws2/share/ament_index_resources_ws2/environment/ament_prefix_path.dsv
+/home/radu/test/ament_playground_ws2/share/ament_index_resources_ws2/environment/path.sh
+/home/radu/test/ament_playground_ws2/share/ament_index_resources_ws2/environment/path.dsv
+/home/radu/test/ament_playground_ws2/share/ament_index_resources_ws2/local_setup.bash
+/home/radu/test/ament_playground_ws2/share/ament_index_resources_ws2/local_setup.sh
+/home/radu/test/ament_playground_ws2/share/ament_index_resources_ws2/local_setup.zsh
+/home/radu/test/ament_playground_ws2/share/ament_index_resources_ws2/local_setup.dsv
+/home/radu/test/ament_playground_ws2/share/ament_index_resources_ws2/package.dsv
+/home/radu/test/ament_playground_ws2/share/ament_index/resource_index/packages/ament_index_resources_ws2
+/home/radu/test/ament_playground_ws2/share/ament_index_resources_ws2/cmake/ament_index_resources_ws2Config.cmake
+/home/radu/test/ament_playground_ws2/share/ament_index_resources_ws2/cmake/ament_index_resources_ws2Config-version.cmake
+/home/radu/test/ament_playground_ws2/share/ament_index_resources_ws2/package.xml

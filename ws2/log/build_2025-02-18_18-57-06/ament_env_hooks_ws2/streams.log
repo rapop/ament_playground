@@ -1,0 +1,21 @@
+[0.025s] Invoking command in '/home/radu/rapop/ament_playground/ws2/build/ament_env_hooks_ws2': /usr/bin/cmake --build /home/radu/rapop/ament_playground/ws2/build/ament_env_hooks_ws2 -- -j8 -l8
+[0.106s] Invoked command in '/home/radu/rapop/ament_playground/ws2/build/ament_env_hooks_ws2' returned '0': /usr/bin/cmake --build /home/radu/rapop/ament_playground/ws2/build/ament_env_hooks_ws2 -- -j8 -l8
+[0.176s] Invoking command in '/home/radu/rapop/ament_playground/ws2/build/ament_env_hooks_ws2': /usr/bin/cmake --install /home/radu/rapop/ament_playground/ws2/build/ament_env_hooks_ws2
+[0.191s] -- Install configuration: ""
+[0.193s] -- Up-to-date: /home/radu/test/ament_playground_ws2/share/ament_env_hooks_ws2/environment/hello_world_path.sh
+[0.194s] -- Up-to-date: /home/radu/test/ament_playground_ws2/share/ament_index/resource_index/package_run_dependencies/ament_env_hooks_ws2
+[0.194s] -- Up-to-date: /home/radu/test/ament_playground_ws2/share/ament_index/resource_index/parent_prefix_path/ament_env_hooks_ws2
+[0.194s] -- Up-to-date: /home/radu/test/ament_playground_ws2/share/ament_env_hooks_ws2/environment/ament_prefix_path.sh
+[0.194s] -- Up-to-date: /home/radu/test/ament_playground_ws2/share/ament_env_hooks_ws2/environment/ament_prefix_path.dsv
+[0.195s] -- Up-to-date: /home/radu/test/ament_playground_ws2/share/ament_env_hooks_ws2/environment/path.sh
+[0.195s] -- Up-to-date: /home/radu/test/ament_playground_ws2/share/ament_env_hooks_ws2/environment/path.dsv
+[0.195s] -- Up-to-date: /home/radu/test/ament_playground_ws2/share/ament_env_hooks_ws2/local_setup.bash
+[0.195s] -- Up-to-date: /home/radu/test/ament_playground_ws2/share/ament_env_hooks_ws2/local_setup.sh
+[0.195s] -- Up-to-date: /home/radu/test/ament_playground_ws2/share/ament_env_hooks_ws2/local_setup.zsh
+[0.195s] -- Up-to-date: /home/radu/test/ament_playground_ws2/share/ament_env_hooks_ws2/local_setup.dsv
+[0.196s] -- Installing: /home/radu/test/ament_playground_ws2/share/ament_env_hooks_ws2/package.dsv
+[0.196s] -- Up-to-date: /home/radu/test/ament_playground_ws2/share/ament_index/resource_index/packages/ament_env_hooks_ws2
+[0.197s] -- Up-to-date: /home/radu/test/ament_playground_ws2/share/ament_env_hooks_ws2/cmake/ament_env_hooks_ws2Config.cmake
+[0.198s] -- Up-to-date: /home/radu/test/ament_playground_ws2/share/ament_env_hooks_ws2/cmake/ament_env_hooks_ws2Config-version.cmake
+[0.200s] -- Up-to-date: /home/radu/test/ament_playground_ws2/share/ament_env_hooks_ws2/package.xml
+[0.201s] Invoked command in '/home/radu/rapop/ament_playground/ws2/build/ament_env_hooks_ws2' returned '0': /usr/bin/cmake --install /home/radu/rapop/ament_playground/ws2/build/ament_env_hooks_ws2

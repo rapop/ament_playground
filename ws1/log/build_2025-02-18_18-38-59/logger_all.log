@@ -1,0 +1,183 @@
+[0.152s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--base-paths', '/home/radu/rapop/ament_playground/ws1/src', '--install-base', '/home/radu/test/ament_playground_ws', '--merge-install']
+[0.152s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='/home/radu/test/ament_playground_ws', merge_install=True, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=8, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['/home/radu/rapop/ament_playground/ws1/src'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x793e2230f7c0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x793e2230f1c0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x793e2230f1c0>>)
+[0.426s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.426s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.426s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.426s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.426s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.426s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/radu/rapop/ament_playground/ws1/src'
+[0.426s] Level 1:colcon.colcon_core.package_identification:_identify(/home/radu/rapop/ament_playground/ws1/src) by extensions ['ignore', 'ignore_ament_install']
+[0.427s] Level 1:colcon.colcon_core.package_identification:_identify(/home/radu/rapop/ament_playground/ws1/src) by extension 'ignore'
+[0.427s] Level 1:colcon.colcon_core.package_identification:_identify(/home/radu/rapop/ament_playground/ws1/src) by extension 'ignore_ament_install'
+[0.427s] Level 1:colcon.colcon_core.package_identification:_identify(/home/radu/rapop/ament_playground/ws1/src) by extensions ['colcon_pkg']
+[0.427s] Level 1:colcon.colcon_core.package_identification:_identify(/home/radu/rapop/ament_playground/ws1/src) by extension 'colcon_pkg'
+[0.427s] Level 1:colcon.colcon_core.package_identification:_identify(/home/radu/rapop/ament_playground/ws1/src) by extensions ['colcon_meta']
+[0.427s] Level 1:colcon.colcon_core.package_identification:_identify(/home/radu/rapop/ament_playground/ws1/src) by extension 'colcon_meta'
+[0.427s] Level 1:colcon.colcon_core.package_identification:_identify(/home/radu/rapop/ament_playground/ws1/src) by extensions ['ros']
+[0.427s] Level 1:colcon.colcon_core.package_identification:_identify(/home/radu/rapop/ament_playground/ws1/src) by extension 'ros'
+[0.442s] Level 1:colcon.colcon_core.package_identification:_identify(/home/radu/rapop/ament_playground/ws1/src) by extensions ['cmake', 'python']
+[0.442s] Level 1:colcon.colcon_core.package_identification:_identify(/home/radu/rapop/ament_playground/ws1/src) by extension 'cmake'
+[0.442s] Level 1:colcon.colcon_core.package_identification:_identify(/home/radu/rapop/ament_playground/ws1/src) by extension 'python'
+[0.442s] Level 1:colcon.colcon_core.package_identification:_identify(/home/radu/rapop/ament_playground/ws1/src) by extensions ['python_setup_py']
+[0.442s] Level 1:colcon.colcon_core.package_identification:_identify(/home/radu/rapop/ament_playground/ws1/src) by extension 'python_setup_py'
+[0.443s] Level 1:colcon.colcon_core.package_identification:_identify(/home/radu/rapop/ament_playground/ws1/src/ament_env_hooks) by extensions ['ignore', 'ignore_ament_install']
+[0.443s] Level 1:colcon.colcon_core.package_identification:_identify(/home/radu/rapop/ament_playground/ws1/src/ament_env_hooks) by extension 'ignore'
+[0.443s] Level 1:colcon.colcon_core.package_identification:_identify(/home/radu/rapop/ament_playground/ws1/src/ament_env_hooks) by extension 'ignore_ament_install'
+[0.443s] Level 1:colcon.colcon_core.package_identification:_identify(/home/radu/rapop/ament_playground/ws1/src/ament_env_hooks) by extensions ['colcon_pkg']
+[0.443s] Level 1:colcon.colcon_core.package_identification:_identify(/home/radu/rapop/ament_playground/ws1/src/ament_env_hooks) by extension 'colcon_pkg'
+[0.443s] Level 1:colcon.colcon_core.package_identification:_identify(/home/radu/rapop/ament_playground/ws1/src/ament_env_hooks) by extensions ['colcon_meta']
+[0.443s] Level 1:colcon.colcon_core.package_identification:_identify(/home/radu/rapop/ament_playground/ws1/src/ament_env_hooks) by extension 'colcon_meta'
+[0.443s] Level 1:colcon.colcon_core.package_identification:_identify(/home/radu/rapop/ament_playground/ws1/src/ament_env_hooks) by extensions ['ros']
+[0.444s] Level 1:colcon.colcon_core.package_identification:_identify(/home/radu/rapop/ament_playground/ws1/src/ament_env_hooks) by extension 'ros'
+[0.447s] DEBUG:colcon.colcon_core.package_identification:Package '/home/radu/rapop/ament_playground/ws1/src/ament_env_hooks' with type 'ros.ament_cmake' and name 'ament_env_hooks'
+[0.447s] Level 1:colcon.colcon_core.package_identification:_identify(/home/radu/rapop/ament_playground/ws1/src/ament_index_resources) by extensions ['ignore', 'ignore_ament_install']
+[0.447s] Level 1:colcon.colcon_core.package_identification:_identify(/home/radu/rapop/ament_playground/ws1/src/ament_index_resources) by extension 'ignore'
+[0.447s] Level 1:colcon.colcon_core.package_identification:_identify(/home/radu/rapop/ament_playground/ws1/src/ament_index_resources) by extension 'ignore_ament_install'
+[0.447s] Level 1:colcon.colcon_core.package_identification:_identify(/home/radu/rapop/ament_playground/ws1/src/ament_index_resources) by extensions ['colcon_pkg']
+[0.447s] Level 1:colcon.colcon_core.package_identification:_identify(/home/radu/rapop/ament_playground/ws1/src/ament_index_resources) by extension 'colcon_pkg'
+[0.448s] Level 1:colcon.colcon_core.package_identification:_identify(/home/radu/rapop/ament_playground/ws1/src/ament_index_resources) by extensions ['colcon_meta']
+[0.448s] Level 1:colcon.colcon_core.package_identification:_identify(/home/radu/rapop/ament_playground/ws1/src/ament_index_resources) by extension 'colcon_meta'
+[0.448s] Level 1:colcon.colcon_core.package_identification:_identify(/home/radu/rapop/ament_playground/ws1/src/ament_index_resources) by extensions ['ros']
+[0.448s] Level 1:colcon.colcon_core.package_identification:_identify(/home/radu/rapop/ament_playground/ws1/src/ament_index_resources) by extension 'ros'
+[0.449s] DEBUG:colcon.colcon_core.package_identification:Package '/home/radu/rapop/ament_playground/ws1/src/ament_index_resources' with type 'ros.ament_cmake' and name 'ament_index_resources'
+[0.449s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.475s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.475s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.478s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 2 installed packages in /home/radu/test/ament_playground_ws2
+[0.478s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 2 installed packages in /home/radu/test/ament_playground_ws
+[0.480s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 273 installed packages in /opt/ros/humble
+[0.496s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.549s] WARNING:colcon.colcon_core.package_selection:Some selected packages are already built in one or more underlay workspaces:
+	'ament_index_resources' is in: /home/radu/test/ament_playground_ws
+If a package in a merged underlay workspace is overridden and it installs headers, then all packages in the overlay must sort their include directories by workspace order. Failure to do so may result in build failures or undefined behavior at run time.
+If the overridden package is used by another package in any underlay, then the overriding package in the overlay must be API and ABI compatible or undefined behavior at run time may occur.
+
+If you understand the risks and want to override a package anyways, add the following to the command line:
+	--allow-overriding ament_index_resources
+
+This may be promoted to an error in a future release of colcon-override-check.
+[0.550s] Level 5:colcon.colcon_core.verb:set package 'ament_env_hooks' build argument 'cmake_args' from command line to 'None'
+[0.550s] Level 5:colcon.colcon_core.verb:set package 'ament_env_hooks' build argument 'cmake_target' from command line to 'None'
+[0.550s] Level 5:colcon.colcon_core.verb:set package 'ament_env_hooks' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.550s] Level 5:colcon.colcon_core.verb:set package 'ament_env_hooks' build argument 'cmake_clean_cache' from command line to 'False'
+[0.550s] Level 5:colcon.colcon_core.verb:set package 'ament_env_hooks' build argument 'cmake_clean_first' from command line to 'False'
+[0.550s] Level 5:colcon.colcon_core.verb:set package 'ament_env_hooks' build argument 'cmake_force_configure' from command line to 'False'
+[0.550s] Level 5:colcon.colcon_core.verb:set package 'ament_env_hooks' build argument 'ament_cmake_args' from command line to 'None'
+[0.550s] Level 5:colcon.colcon_core.verb:set package 'ament_env_hooks' build argument 'catkin_cmake_args' from command line to 'None'
+[0.550s] Level 5:colcon.colcon_core.verb:set package 'ament_env_hooks' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.550s] DEBUG:colcon.colcon_core.verb:Building package 'ament_env_hooks' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/radu/rapop/ament_playground/ws1/build/ament_env_hooks', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/radu/test/ament_playground_ws', 'merge_install': True, 'path': '/home/radu/rapop/ament_playground/ws1/src/ament_env_hooks', 'symlink_install': False, 'test_result_base': None}
+[0.551s] Level 5:colcon.colcon_core.verb:set package 'ament_index_resources' build argument 'cmake_args' from command line to 'None'
+[0.551s] Level 5:colcon.colcon_core.verb:set package 'ament_index_resources' build argument 'cmake_target' from command line to 'None'
+[0.551s] Level 5:colcon.colcon_core.verb:set package 'ament_index_resources' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.551s] Level 5:colcon.colcon_core.verb:set package 'ament_index_resources' build argument 'cmake_clean_cache' from command line to 'False'
+[0.551s] Level 5:colcon.colcon_core.verb:set package 'ament_index_resources' build argument 'cmake_clean_first' from command line to 'False'
+[0.551s] Level 5:colcon.colcon_core.verb:set package 'ament_index_resources' build argument 'cmake_force_configure' from command line to 'False'
+[0.551s] Level 5:colcon.colcon_core.verb:set package 'ament_index_resources' build argument 'ament_cmake_args' from command line to 'None'
+[0.551s] Level 5:colcon.colcon_core.verb:set package 'ament_index_resources' build argument 'catkin_cmake_args' from command line to 'None'
+[0.551s] Level 5:colcon.colcon_core.verb:set package 'ament_index_resources' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.551s] DEBUG:colcon.colcon_core.verb:Building package 'ament_index_resources' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/radu/rapop/ament_playground/ws1/build/ament_index_resources', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/radu/test/ament_playground_ws', 'merge_install': True, 'path': '/home/radu/rapop/ament_playground/ws1/src/ament_index_resources', 'symlink_install': False, 'test_result_base': None}
+[0.551s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.552s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.553s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/radu/rapop/ament_playground/ws1/src/ament_env_hooks' with build type 'ament_cmake'
+[0.553s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/radu/rapop/ament_playground/ws1/src/ament_env_hooks'
+[0.556s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.557s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.557s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.562s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/radu/rapop/ament_playground/ws1/src/ament_index_resources' with build type 'ament_cmake'
+[0.562s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/radu/rapop/ament_playground/ws1/src/ament_index_resources'
+[0.563s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.563s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.581s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/radu/rapop/ament_playground/ws1/build/ament_env_hooks': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/radu/rapop/ament_playground/ws1/build/ament_env_hooks -- -j8 -l8
+[0.589s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/radu/rapop/ament_playground/ws1/build/ament_index_resources': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/radu/rapop/ament_playground/ws1/build/ament_index_resources -- -j8 -l8
+[0.643s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/radu/rapop/ament_playground/ws1/build/ament_env_hooks' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/radu/rapop/ament_playground/ws1/build/ament_env_hooks -- -j8 -l8
+[0.652s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/radu/rapop/ament_playground/ws1/build/ament_index_resources' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/radu/rapop/ament_playground/ws1/build/ament_index_resources -- -j8 -l8
+[0.699s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/radu/rapop/ament_playground/ws1/build/ament_env_hooks': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/radu/rapop/ament_playground/ws1/build/ament_env_hooks
+[0.703s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/radu/rapop/ament_playground/ws1/build/ament_index_resources': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/radu/rapop/ament_playground/ws1/build/ament_index_resources
+[0.715s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ament_env_hooks)
+[0.720s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/radu/rapop/ament_playground/ws1/build/ament_env_hooks' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/radu/rapop/ament_playground/ws1/build/ament_env_hooks
+[0.723s] Level 1:colcon.colcon_core.environment:checking '/home/radu/test/ament_playground_ws' for CMake module files
+[0.724s] Level 1:colcon.colcon_core.environment:checking '/home/radu/test/ament_playground_ws' for CMake config files
+[0.724s] Level 1:colcon.colcon_core.shell:create_environment_hook('ament_env_hooks', 'cmake_prefix_path')
+[0.725s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/radu/test/ament_playground_ws/share/ament_env_hooks/hook/cmake_prefix_path.ps1'
+[0.726s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/radu/test/ament_playground_ws/share/ament_env_hooks/hook/cmake_prefix_path.dsv'
+[0.727s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/radu/test/ament_playground_ws/share/ament_env_hooks/hook/cmake_prefix_path.sh'
+[0.728s] Level 1:colcon.colcon_core.environment:checking '/home/radu/test/ament_playground_ws/bin'
+[0.729s] Level 1:colcon.colcon_core.environment:checking '/home/radu/test/ament_playground_ws/lib/pkgconfig/ament_env_hooks.pc'
+[0.729s] Level 1:colcon.colcon_core.environment:checking '/home/radu/test/ament_playground_ws/lib/python3.10/site-packages'
+[0.730s] Level 1:colcon.colcon_core.environment:checking '/home/radu/test/ament_playground_ws/bin'
+[0.730s] INFO:colcon.colcon_core.shell:Creating package script '/home/radu/test/ament_playground_ws/share/ament_env_hooks/package.ps1'
+[0.732s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/radu/test/ament_playground_ws/share/ament_env_hooks/package.dsv'
+[0.733s] INFO:colcon.colcon_core.shell:Creating package script '/home/radu/test/ament_playground_ws/share/ament_env_hooks/package.sh'
+[0.734s] INFO:colcon.colcon_core.shell:Creating package script '/home/radu/test/ament_playground_ws/share/ament_env_hooks/package.bash'
+[0.736s] INFO:colcon.colcon_core.shell:Creating package script '/home/radu/test/ament_playground_ws/share/ament_env_hooks/package.zsh'
+[0.738s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/radu/test/ament_playground_ws/share/colcon-core/packages/ament_env_hooks)
+[0.741s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ament_index_resources)
+[0.742s] Level 1:colcon.colcon_core.environment:checking '/home/radu/test/ament_playground_ws' for CMake module files
+[0.744s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/radu/rapop/ament_playground/ws1/build/ament_index_resources' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/radu/rapop/ament_playground/ws1/build/ament_index_resources
+[0.744s] Level 1:colcon.colcon_core.environment:checking '/home/radu/test/ament_playground_ws' for CMake config files
+[0.745s] Level 1:colcon.colcon_core.shell:create_environment_hook('ament_index_resources', 'cmake_prefix_path')
+[0.745s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/radu/test/ament_playground_ws/share/ament_index_resources/hook/cmake_prefix_path.ps1'
+[0.746s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/radu/test/ament_playground_ws/share/ament_index_resources/hook/cmake_prefix_path.dsv'
+[0.747s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/radu/test/ament_playground_ws/share/ament_index_resources/hook/cmake_prefix_path.sh'
+[0.748s] Level 1:colcon.colcon_core.environment:checking '/home/radu/test/ament_playground_ws/bin'
+[0.748s] Level 1:colcon.colcon_core.environment:checking '/home/radu/test/ament_playground_ws/lib/pkgconfig/ament_index_resources.pc'
+[0.748s] Level 1:colcon.colcon_core.environment:checking '/home/radu/test/ament_playground_ws/lib/python3.10/site-packages'
+[0.749s] Level 1:colcon.colcon_core.environment:checking '/home/radu/test/ament_playground_ws/bin'
+[0.750s] INFO:colcon.colcon_core.shell:Creating package script '/home/radu/test/ament_playground_ws/share/ament_index_resources/package.ps1'
+[0.750s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/radu/test/ament_playground_ws/share/ament_index_resources/package.dsv'
+[0.751s] INFO:colcon.colcon_core.shell:Creating package script '/home/radu/test/ament_playground_ws/share/ament_index_resources/package.sh'
+[0.752s] INFO:colcon.colcon_core.shell:Creating package script '/home/radu/test/ament_playground_ws/share/ament_index_resources/package.bash'
+[0.753s] INFO:colcon.colcon_core.shell:Creating package script '/home/radu/test/ament_playground_ws/share/ament_index_resources/package.zsh'
+[0.754s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/radu/test/ament_playground_ws/share/colcon-core/packages/ament_index_resources)
+[0.780s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ament_env_hooks)
+[0.781s] Level 1:colcon.colcon_core.environment:checking '/home/radu/test/ament_playground_ws' for CMake module files
+[0.782s] Level 1:colcon.colcon_core.environment:checking '/home/radu/test/ament_playground_ws' for CMake config files
+[0.782s] Level 1:colcon.colcon_core.shell:create_environment_hook('ament_env_hooks', 'cmake_prefix_path')
+[0.782s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/radu/test/ament_playground_ws/share/ament_env_hooks/hook/cmake_prefix_path.ps1'
+[0.783s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/radu/test/ament_playground_ws/share/ament_env_hooks/hook/cmake_prefix_path.dsv'
+[0.784s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/radu/test/ament_playground_ws/share/ament_env_hooks/hook/cmake_prefix_path.sh'
+[0.785s] Level 1:colcon.colcon_core.environment:checking '/home/radu/test/ament_playground_ws/bin'
+[0.785s] Level 1:colcon.colcon_core.environment:checking '/home/radu/test/ament_playground_ws/lib/pkgconfig/ament_env_hooks.pc'
+[0.785s] Level 1:colcon.colcon_core.environment:checking '/home/radu/test/ament_playground_ws/lib/python3.10/site-packages'
+[0.786s] Level 1:colcon.colcon_core.environment:checking '/home/radu/test/ament_playground_ws/bin'
+[0.787s] INFO:colcon.colcon_core.shell:Creating package script '/home/radu/test/ament_playground_ws/share/ament_env_hooks/package.ps1'
+[0.789s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/radu/test/ament_playground_ws/share/ament_env_hooks/package.dsv'
+[0.790s] INFO:colcon.colcon_core.shell:Creating package script '/home/radu/test/ament_playground_ws/share/ament_env_hooks/package.sh'
+[0.791s] INFO:colcon.colcon_core.shell:Creating package script '/home/radu/test/ament_playground_ws/share/ament_env_hooks/package.bash'
+[0.791s] INFO:colcon.colcon_core.shell:Creating package script '/home/radu/test/ament_playground_ws/share/ament_env_hooks/package.zsh'
+[0.792s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/radu/test/ament_playground_ws/share/colcon-core/packages/ament_env_hooks)
+[0.796s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ament_index_resources)
+[0.796s] Level 1:colcon.colcon_core.environment:checking '/home/radu/test/ament_playground_ws' for CMake module files
+[0.797s] Level 1:colcon.colcon_core.environment:checking '/home/radu/test/ament_playground_ws' for CMake config files
+[0.798s] Level 1:colcon.colcon_core.shell:create_environment_hook('ament_index_resources', 'cmake_prefix_path')
+[0.798s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/radu/test/ament_playground_ws/share/ament_index_resources/hook/cmake_prefix_path.ps1'
+[0.799s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/radu/test/ament_playground_ws/share/ament_index_resources/hook/cmake_prefix_path.dsv'
+[0.800s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/radu/test/ament_playground_ws/share/ament_index_resources/hook/cmake_prefix_path.sh'
+[0.801s] Level 1:colcon.colcon_core.environment:checking '/home/radu/test/ament_playground_ws/bin'
+[0.801s] Level 1:colcon.colcon_core.environment:checking '/home/radu/test/ament_playground_ws/lib/pkgconfig/ament_index_resources.pc'
+[0.801s] Level 1:colcon.colcon_core.environment:checking '/home/radu/test/ament_playground_ws/lib/python3.10/site-packages'
+[0.802s] Level 1:colcon.colcon_core.environment:checking '/home/radu/test/ament_playground_ws/bin'
+[0.803s] INFO:colcon.colcon_core.shell:Creating package script '/home/radu/test/ament_playground_ws/share/ament_index_resources/package.ps1'
+[0.804s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/radu/test/ament_playground_ws/share/ament_index_resources/package.dsv'
+[0.806s] INFO:colcon.colcon_core.shell:Creating package script '/home/radu/test/ament_playground_ws/share/ament_index_resources/package.sh'
+[0.807s] INFO:colcon.colcon_core.shell:Creating package script '/home/radu/test/ament_playground_ws/share/ament_index_resources/package.bash'
+[0.808s] INFO:colcon.colcon_core.shell:Creating package script '/home/radu/test/ament_playground_ws/share/ament_index_resources/package.zsh'
+[0.809s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/radu/test/ament_playground_ws/share/colcon-core/packages/ament_index_resources)
+[0.809s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[0.810s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[0.810s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[0.810s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[0.819s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[0.819s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[0.819s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[0.842s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[0.842s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/radu/test/ament_playground_ws/local_setup.ps1'
+[0.844s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/radu/test/ament_playground_ws/_local_setup_util_ps1.py'
+[0.845s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/radu/test/ament_playground_ws/setup.ps1'
+[0.847s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/radu/test/ament_playground_ws/local_setup.sh'
+[0.847s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/radu/test/ament_playground_ws/_local_setup_util_sh.py'
+[0.848s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/radu/test/ament_playground_ws/setup.sh'
+[0.850s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/radu/test/ament_playground_ws/local_setup.bash'
+[0.851s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/radu/test/ament_playground_ws/setup.bash'
+[0.854s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/radu/test/ament_playground_ws/local_setup.zsh'
+[0.855s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/radu/test/ament_playground_ws/setup.zsh'

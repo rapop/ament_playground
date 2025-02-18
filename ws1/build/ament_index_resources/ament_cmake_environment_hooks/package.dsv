@@ -1,0 +1,4 @@
+source;share/ament_index_resources/local_setup.bash
+source;share/ament_index_resources/local_setup.dsv
+source;share/ament_index_resources/local_setup.sh
+source;share/ament_index_resources/local_setup.zsh

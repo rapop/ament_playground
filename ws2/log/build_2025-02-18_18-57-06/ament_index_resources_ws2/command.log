@@ -1,0 +1,2 @@
+Invoking command in '/home/radu/rapop/ament_playground/ws2/build/ament_index_resources_ws2': /usr/bin/cmake --build /home/radu/rapop/ament_playground/ws2/build/ament_index_resources_ws2 -- -j8 -l8
+Invoked command in '/home/radu/rapop/ament_playground/ws2/build/ament_index_resources_ws2' returned '2': /usr/bin/cmake --build /home/radu/rapop/ament_playground/ws2/build/ament_index_resources_ws2 -- -j8 -l8
