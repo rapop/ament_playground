@@ -14,4 +14,9 @@ This will build the pkg containing the hook and make it available to other pkgs 
 `source /home/radu/test/ament_playground_ws2/setup.bash`
 
 `echo $HELLO_WORLD_PATH` will result into the following
-`/opt/ros/humble/lib/hello`
+`/home/radu/test/ament_playground_ws2/lib/hello`
+Thus effectively being setup from second repo.
+
+## ament_index_resource
+
+Register a resource from a pkg A and get it in pkg B.
