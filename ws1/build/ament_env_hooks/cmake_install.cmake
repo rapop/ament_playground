@@ -43,14 +43,6 @@ if(NOT DEFINED CMAKE_OBJDUMP)
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_env_hooks" TYPE DIRECTORY FILES "/home/radu/rapop/ament_playground/ws1/src/ament_env_hooks/cmake")
-endif()
-
-if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_env_hooks" TYPE DIRECTORY FILES "/home/radu/rapop/ament_playground/ws1/src/ament_env_hooks/env_hooks")
-endif()
-
-if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/env_hooks" TYPE FILE FILES "/home/radu/rapop/ament_playground/ws1/build/ament_env_hooks/ament_cmake_index/share/ament_index/resource_index/env_hooks/ament_env_hooks")
 endif()
 

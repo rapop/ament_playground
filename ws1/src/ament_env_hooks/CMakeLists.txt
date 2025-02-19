@@ -6,15 +6,16 @@ set(CMAKE_CXX_STANDARD_REQUIRED True)
 
 find_package(ament_cmake REQUIRED)
 
-install(
-  DIRECTORY cmake
-  DESTINATION share/${PROJECT_NAME}
-)
+# those installs don't even seem necessary for this app.?
+# install(
+#   DIRECTORY cmake
+#   DESTINATION share/${PROJECT_NAME}
+# )
 
-install(
-  DIRECTORY env_hooks
-  DESTINATION share/${PROJECT_NAME}
-)
+# install(
+#   DIRECTORY env_hooks
+#   DESTINATION share/${PROJECT_NAME}
+# )
 
 # Register the resource name env_hooks to point to the folder in this package so we dont need to copy the
 # scripts that are in the env_hooks folder in other packages.

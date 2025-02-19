@@ -1,4 +1,0 @@
-Invoking command in '/home/radu/rapop/ament_playground/ws1/build/ament_env_hooks': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/radu/rapop/ament_playground/ws1/build/ament_env_hooks -- -j8 -l8
-Invoked command in '/home/radu/rapop/ament_playground/ws1/build/ament_env_hooks' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/radu/rapop/ament_playground/ws1/build/ament_env_hooks -- -j8 -l8
-Invoking command in '/home/radu/rapop/ament_playground/ws1/build/ament_env_hooks': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/radu/rapop/ament_playground/ws1/build/ament_env_hooks
-Invoked command in '/home/radu/rapop/ament_playground/ws1/build/ament_env_hooks' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/radu/rapop/ament_playground/ws1/build/ament_env_hooks

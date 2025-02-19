@@ -1,2 +1,0 @@
-Invoking command in '/home/radu/rapop/ament_playground/ws1/build/ament_env_hooks': /usr/bin/cmake /home/radu/rapop/ament_playground/ws1/src/ament_env_hooks -DCMAKE_INSTALL_PREFIX=/home/radu/test/ament_playground_ws
-Invoked command in '/home/radu/rapop/ament_playground/ws1/build/ament_env_hooks' returned '1': /usr/bin/cmake /home/radu/rapop/ament_playground/ws1/src/ament_env_hooks -DCMAKE_INSTALL_PREFIX=/home/radu/test/ament_playground_ws
