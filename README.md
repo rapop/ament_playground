@@ -2,6 +2,8 @@
 
 ## ament_env_hooks
 
+`source /opt/ros/humble/setup.bash`
+
 `cd ws1 && ./do-build.sh`
 `source /home/radu/test/ament_playground_ws/setup.bash`
 
