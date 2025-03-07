@@ -12,14 +12,16 @@ find_package(ament_cmake REQUIRED)
 #   DESTINATION share/${PROJECT_NAME}
 # )
 
-# install(
-#   DIRECTORY env_hooks
-#   DESTINATION share/${PROJECT_NAME}
-# )
+install(
+  DIRECTORY env_hooks
+  DESTINATION share/${PROJECT_NAME}
+)
 
 # Register the resource name env_hooks to point to the folder in this package so we dont need to copy the
 # scripts that are in the env_hooks folder in other packages.
-ament_index_register_resource("env_hooks" CONTENT "${CMAKE_CURRENT_SOURCE_DIR}/env_hooks")
+# this creates a file ${INSTALL_DIR}/share/ament_index/resource_index/{env_hooks}/ament_env_hooks with the content of the var!
+# which is /home/radu/test/ament_playground_ws/share/ament_env_hooks/env_hooks in this case
+ament_index_register_resource("env_hooks" CONTENT "${CMAKE_INSTALL_PREFIX}/share/${PROJECT_NAME}/env_hooks")
 
 ament_export_dependencies(
   ament_cmake

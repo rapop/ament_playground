@@ -5,6 +5,7 @@
 `source /opt/ros/humble/setup.bash`
 
 `cd ws1 && ./do-build.sh`
+The install path in the `do-build.sh` script is set as `INSTALL_DIR=${HOME}/test/ament_playground_ws`
 `source /home/radu/test/ament_playground_ws/setup.bash`
 
 This will build the pkg containing the hook and make it available to other pkgs when calling `find_package()`
